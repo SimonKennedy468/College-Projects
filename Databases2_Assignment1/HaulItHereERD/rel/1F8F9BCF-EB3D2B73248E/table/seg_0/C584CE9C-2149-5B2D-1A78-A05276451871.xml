@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C584CE9C-2149-5B2D-1A78-A05276451871" name="customer">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>43944CA9-1F1C-20DB-9B90-5C4EB6A10DAB</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="5600B3E6-5A8C-C738-CFC9-DB58FADC29C7">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>0F7D5C9C-293B-20D7-FB1F-95A66116C370</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adderss" id="E8B20DF2-8538-A25D-7119-7C6112D26272">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>9A7AFBFC-AC38-E832-B1AB-01FFC0860E2D</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_id" id="398E6250-9629-20CC-4AB7-7EFE147A35C8">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>BF2CECE2-6F50-A61C-8954-9BC3166902B5</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C84176D-FC77-3E7B-C15F-C132C1D92DF9" name="customer_PK">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>9E1187AB-F4EA-D24C-C06D-0C4CA5E2F3B6</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398E6250-9629-20CC-4AB7-7EFE147A35C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

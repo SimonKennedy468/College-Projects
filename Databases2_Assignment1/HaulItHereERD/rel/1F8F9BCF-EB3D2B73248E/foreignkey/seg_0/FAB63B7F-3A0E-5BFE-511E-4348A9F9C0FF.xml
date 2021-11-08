@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAB63B7F-3A0E-5BFE-511E-4348A9F9C0FF" containerWithKeyObject="81029556-3162-1F16-0916-7E1059E54542" localFKIndex="7A43A8CC-02D0-71A4-1F90-59F38F0AB70A" name="shipment_customer_FK">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>BAE647B7-FE4E-1313-7CB3-67583210104F</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<referredTableLongName>customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C584CE9C-2149-5B2D-1A78-A05276451871</referredTableID>
+<keyObject>2C84176D-FC77-3E7B-C15F-C132C1D92DF9</keyObject>
+<referredKeyID>2C84176D-FC77-3E7B-C15F-C132C1D92DF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>customer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

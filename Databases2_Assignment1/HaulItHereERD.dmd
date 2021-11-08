@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HaulItHereERD" id="9C2170D9-90FB-3671-59B5-753F707F97AF" version="3.5">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 14:22:17 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9C2170D9-90FB-3671-59B5-753F707F97AF</designId>
+</OSDM_Design>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38D1D9C5-EEB7-D728-BA58-612EB35CD981" name="driver">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 14:58:39 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staff_number" id="A6F87DB9-A002-F5F2-67AA-E8227AFC5D09">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 14:58:55 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_name" id="F4372A48-6E91-FD6E-D576-F7FD65EAB93C">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 14:59:41 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_depot" id="9FED2127-493D-B385-B50F-1D0D085AB049">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 15:01:09 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="F40A2D21-D946-FA25-9FD0-0C1425C63C79">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 15:01:47 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B473088-465F-8DB6-ED5E-3E219CAE5EB0" name="driver PK">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 15:02:23 UTC</createdTime>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F8F9BCF-DED2-70EB-DA14-EB3D2B73248E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6F87DB9-A002-F5F2-67AA-E8227AFC5D09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

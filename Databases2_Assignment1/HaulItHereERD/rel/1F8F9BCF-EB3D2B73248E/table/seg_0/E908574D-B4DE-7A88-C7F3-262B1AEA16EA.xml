@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E908574D-B4DE-7A88-C7F3-262B1AEA16EA" name="Vehicle">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>00778697-4676-D9D5-8749-7DEF65DEC7E7</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registration" id="2DBDABCD-27DD-090E-4638-AE157114C817">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>7CDF896F-7214-F801-F91F-4EB58AC2DECB</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="make" id="E82F924E-8F65-93B1-3CC5-063044889516">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>19EAFE91-4F74-7344-4242-DE6F35108EFF</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_service" id="3EB5EA03-E851-D54C-4317-9747AD5B7332">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>96DE8A36-33B5-B512-DFF9-E21280EE798B</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recent_service" id="D3553016-2CD9-A898-2008-9DDCFD8DEFA8">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>9AF06340-3CA5-BB57-2AEB-FD97CA017489</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recent_milage" id="A275DF1E-20FE-659C-7629-C1104D180928">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>F9080AD1-BFBA-C659-C9F2-9D5CC837AC67</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirver_num" id="F096ED1C-E3BB-061C-8BAB-436835B80E5E">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>C83ADEE6-7DE8-F28F-2011-FF77FEAD77B1</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="driver_staff_number" id="4F8D4918-65BB-8B64-AE6D-D65D8FE5E12E">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>37724CCF-B419-3BCF-5CF8-7B651D79E35E</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47F6775A-98BA-906D-48FB-49292E15349A" referredColumn="634576C6-303F-D9CE-244A-DF84F3D96B62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6573E7C5-7821-039E-204C-6789BA1CB187" name="Vehicle_PK">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>994C862F-6DF1-5C53-444B-032F80DEC6C8</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F096ED1C-E3BB-061C-8BAB-436835B80E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8551CA87-DF78-1083-E0B4-A6E9DA7AB8DA" name="Vehicle_driver_FK">
+<createdBy>Simon</createdBy>
+<createdTime>2021-11-06 16:36:38 UTC</createdTime>
+<generatorID>41385170-841A-D424-9952-C8599154F797</generatorID>
+<ownerDesignName>HaulItHereERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F8D4918-65BB-8B64-AE6D-D65D8FE5E12E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
